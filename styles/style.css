@@ -1,0 +1,95 @@
+:root {
+    /*Light theme colors*/
+    --bg:#F2F4F8;
+    --surface:#FFFFFF;
+    --accent: #3347ff;
+    --line: #d5dae6;
+    --shadow: rgba(19, 26, 58, 0.18);
+
+     /* Tile colors and the text color that sits on each one */
+  --mint: #BFF0D4;
+  --mint-ink: #0E2A1E;
+  --blush: #FFD6E0;
+  --blush-ink: #3A0E1D;
+  --sky: #CBDAFF;
+  --sky-ink: #101C4A;
+
+  /* Wireframe look (stays light in both themes, like paper) */
+  --wire-bg: #FFFFFF;
+  --wire-ink: #6B7280;
+  --wire-line: #9AA1B5;
+
+  /* ---- Typography ---- */
+  --font-display: "Bricolage Grotesque", "Public Sans", system-ui, sans-serif;
+  --font-body: "Public Sans", system-ui, sans-serif;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-heavy: 800;
+
+  --text-2xs: 0.7rem;
+  --text-xs: 0.9rem;
+  --text-sm: 0.95rem;
+  --text-base: 1.0625rem;
+  --text-logo: 1.15rem;
+  --text-step-title: 1.25rem;
+  --text-step-number: 1.6rem;
+  --text-screen-title: 1.5rem;
+  --text-case-title: 1.9rem;
+  --text-section-title: clamp(1.9rem, 4vw, 2.9rem);
+  --text-hero: clamp(2.6rem, 6.4vw, 5rem);
+  --text-contact: clamp(2.2rem, 6vw, 4.4rem);
+
+  --leading-body: 1.6;
+  --leading-heading: 1.05;
+  --tracking-heading: -0.02em;
+
+  /* ---- Spacing scale ---- */
+  --space-1: 0.25rem;   /*  4px */
+  --space-2: 0.5rem;    /*  8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.5rem;    /* 24px */
+  --space-6: 2rem;      /* 32px */
+  --space-7: 2.5rem;    /* 40px */
+  --space-8: 3rem;      /* 48px */
+  --space-9: 3.5rem;    /* 56px */
+  --space-10: 4.5rem;   /* 72px */
+  --space-11: 5.5rem;   /* 88px */
+  --space-12: 6rem;     /* 96px */
+
+  /* ---- Layout ---- */
+  --max-width: 1080px;
+  --gutter: var(--space-5);
+  --section-pad: var(--space-10);
+  --measure-body: 60ch;
+  --measure-intro: 46ch;
+  --measure-contact: 14ch;
+
+  /* ---- Shape ---- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --radius-xl: 22px;
+  --radius-device: 36px;
+  --radius-pill: 999px;
+
+  --border-thin: 1px;
+  --border-medium: 2px;
+  --border-thick: 4px;
+  --shadow-card: 0 10px 30px var(--shadow-color);
+
+  /* ---- Components ---- */
+  --btn-pad: 0.875rem var(--space-5);
+  --device-width: 320px;
+  --device-frame: 8px;
+  --device-ratio: 9 / 17;
+  --shot-ratio: 4 / 3;
+  --focus-ring: 3px solid var(--accent);
+
+  /* ---- Browser ---- */
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
